@@ -2,6 +2,15 @@
 
 ## Overview
 This repository contains a simulation of a **Sudoku-inspired threshold-coupled neural network** using **Brian2**, a neural simulation library. The model consists of 81 neurons arranged according to a valid Sudoku solution, with excitatory and inhibitory synaptic connections determined by the Sudoku structure.
+project_root/
+├── main.py
+├── simulation/
+│   ├── __init__.py  # <-- Add this file
+│   ├── config.py
+│   ├── run_simulation.py
+│   └── utils.py
+└── data/
+    └── spike_trains/
 
 ## Simulation Details
 

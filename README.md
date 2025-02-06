@@ -62,7 +62,7 @@ The script will:
 | `exc` | Excitatory synaptic weight | `0.002` |
 | `inh` | Inhibitory synaptic weight | `0.006` |
 | `seedi` | Random seed for reproducibility | `[3]` |
-| `I_d` | DC input to each of 9 groups | `0.59 to 0.67 ` |
+| `I_d` | DC input in step of 0.01 to each of 9 groups | `0.59 to 0.67 ` |
 
 ## Visualization
 The script produces:
